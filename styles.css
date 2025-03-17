@@ -1,0 +1,46 @@
+/* 使用一张宇宙星系的背景图片 */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url('https://images.unsplash.com/photo-1528164344705-47542687000d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: #e0e0e0; /* 调整文字颜色以提高可读性 */
+}
+
+header {
+  background-color: rgba(0, 0, 0, 0.7); /* 增加透明度 */
+  color: white;
+  text-align: center;
+  padding: 1em;
+}
+
+main {
+  padding: 2em;
+  background-color: rgba(0, 0, 0, 0.5); /* 增加透明度 */
+  border-radius: 10px; /* 添加圆角 */
+  margin: 2em;
+}
+
+section {
+  margin-bottom: 2em;
+}
+
+h2 {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 0.5em;
+}
+
+ul {
+  list-style-type: disc;
+  padding-left: 2em;
+}
+
+footer {
+  background-color: rgba(0, 0, 0, 0.7); /* 增加透明度 */
+  color: white;
+  text-align: center;
+  padding: 1em;
+}
